@@ -1,96 +1,272 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Research — Shyamal Das</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;1,600&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Research — Shyamal Das</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;1,600&family=Source+Sans+3:wght@400;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<header class="cover">
-  <div>
-    <div class="cover-mark">SD</div>
-    <h1>Shyamal Das</h1>
-    <p>PhD Research Scholar &middot; Electrical Engineering</p>
-  </div>
-</header>
-
-<nav class="nav-bar">
-  <div class="nav-inner">
-    <a href="index.html">Home</a>
-    <a href="about.html">About Me</a>
-    <a href="research.html" class="active">Research</a>
-    <a href="publications.html">Publications</a>
-    <a href="contact.html">Contact Me</a>
-  </div>
-  <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
-    <span></span><span></span><span></span>
-  </button>
-</nav>
-
-<main>
-  <div class="wrap-narrow">
-    <h2 class="section-title">Research Identity</h2>
-    <div class="section-rule"></div>
-    <p>
-      Protection and control of inverter-dominated microgrids; grid-forming and
-      grid-following inverter dynamics; islanding detection; PHIL/HIL-based validation;
-      real-time simulation using RTDS and Typhoon HIL; coordinated protection schemes
-      for DER-rich systems.
-    </p>
-    <ul class="tag-list">
-      <li>Microgrid protection</li>
-      <li>Inverter-based islanded microgrids</li>
-      <li>Islanding detection</li>
-      <li>Grid-forming control</li>
-      <li>PHIL validation</li>
-      <li>DER protection coordination</li>
-      <li>AI in power systems</li>
-    </ul>
-
-    <h2 class="section-title" style="margin-top:56px;">Lab Infrastructure &amp; Tools</h2>
-    <div class="section-rule"></div>
-
-    <div class="skills-grid">
-      <div class="skill-col">
-        <h3>Real-Time / HIL</h3>
-        <ul>
-          <li>Power Hardware-in-the-Loop (PHIL) testing</li>
-          <li>RTDS real-time simulation platform</li>
-          <li>Typhoon HIL setup &amp; controller testing</li>
-          <li>SPS amplifier interfacing</li>
-          <li>Real inverter (5 kW) experimental validation</li>
-        </ul>
-      </div>
-      <div class="skill-col">
-        <h3>Simulation &amp; EMT</h3>
-        <ul>
-          <li>MATLAB / Simulink</li>
-          <li>PSCAD</li>
-          <li>DIgSILENT</li>
-        </ul>
-      </div>
-      <div class="skill-col">
-        <h3>Programming</h3>
-        <ul>
-          <li>MATLAB</li>
-          <li>Python</li>
-          <li>C</li>
-          <li>Java</li>
-        </ul>
-      </div>
+  <header class="cover">
+    <div>
+      <h1>Shyamal Das</h1>
+      <p>PhD Research Scholar &middot; Electrical Engineering</p>
     </div>
-  </div>
-</main>
+  </header>
 
-<footer class="site-footer">
-  <p>&copy; Shyamal Das &middot; Dept. of Electrical Engineering, IIT Bhubaneswar</p>
-</footer>
+  <nav class="nav-bar">
+    <div class="nav-inner">
+      <a href="index.html">Home</a>
+      <a href="about.html">About Me</a>
+      <a href="research.html" class="active">Research</a>
+      <a href="publications.html">Publications</a>
+      <a href="blog.html">Research Blog</a>
+      <a href="contact.html">Contact Me</a>
+    </div>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
 
-<script src="script.js"></script>
+  <main>
+
+    <div class="wrap">
+      <!-- ================= Overview ================= -->
+
+      <h2 class="section-title">Research Overview</h2>
+      <div class="section-rule"></div>
+
+      <div class="card">
+
+        <p>
+          Modern power systems are undergoing a rapid transformation due to the increasing
+          penetration of inverter-based renewable energy resources. Conventional protection
+          and control methods, originally developed for synchronous generator-dominated
+          systems, face significant challenges in inverter-interfaced microgrids because of
+          limited fault current contribution, changing system dynamics, and multiple
+          operating modes.
+        </p>
+
+        <p>
+          My research focuses on developing reliable protection and control strategies for
+          inverter-interfaced microgrids, with particular emphasis on grid-forming inverter
+          dynamics, islanding detection, adaptive protection schemes, and hardware
+          validation using Power Hardware-in-the-Loop (PHIL), RTDS, and Typhoon HIL
+          platforms.
+        </p>
+
+      </div>
+
+      <!-- ================= Current Research ================= -->
+
+      <h2 class="section-title">Current Research</h2>
+      <div class="section-rule"></div>
+
+      <div class="research-grid">
+
+        <div class="research-card">
+
+          <h3>Microgrid Protection</h3>
+
+          <p>
+            Development of adaptive protection schemes capable of operating reliably under
+            varying operating conditions and low fault current scenarios in inverter-based
+            microgrids.
+          </p>
+
+        </div>
+
+        <div class="research-card">
+
+          <h3>Grid-Forming Inverters</h3>
+
+          <p>
+            Investigation of the dynamic behaviour of grid-forming converters and their
+            impact on protection, stability, and coordinated operation in future power
+            systems.
+          </p>
+
+        </div>
+
+        <div class="research-card">
+
+          <h3>Islanding Detection</h3>
+
+          <p>
+            Development of active and hybrid islanding detection techniques with high
+            accuracy, low non-detection zone, and minimal power quality degradation.
+          </p>
+
+        </div>
+
+        <div class="research-card">
+
+          <h3>Hardware Validation</h3>
+
+          <p>
+            Validation of developed algorithms through MATLAB/Simulink, RTDS,
+            Typhoon HIL, and PHIL platforms to demonstrate practical feasibility.
+          </p>
+
+        </div>
+
+      </div>
+
+      <!-- ================= Research Network ================= -->
+
+      <h2 class="section-title">Research Network</h2>
+      <div class="section-rule"></div>
+
+      <!-- ===== Current Research Group ===== -->
+
+      <h3 class="subsection-title">Current Research Group</h3>
+
+      <div class="collab-grid">
+        <div class="collab-card">
+          <img src="Image/samantaray.jpeg" alt="Prof. S. R. Samantaray">
+          <h3>Prof. S. R. Samantaray</h3>
+          <p class="collab-role">Ph.D Supervisor</p>
+          <p>
+            Professor and Dean – PG & Research Programs<br>
+            Department of Electrical Engineering<br>
+            IIT Bhubaneswar
+          </p>
+          <a href="https://secs.iitbbs.ac.in/index.php/sbh_samant/" target="_blank" class="btn">
+            View Profile →
+          </a>
+        </div>
+
+        <div class="collab-card">
+          <img src="Image/pankaj.jpeg" alt="Dr. P. D. Achlerkar">
+          <h3>Dr. P. D. Achlerkar</h3>
+          <p class="collab-role">Ph.D Co-supervisor</p>
+          <p>
+            Assistant Professor<br>
+            Department of Electrical Engineering<br>
+            IIT Bhubaneswar
+          </p>
+          <a href="https://secs.iitbbs.ac.in/index.php/pankaj/" target="_blank" class="btn">
+            View Profile →
+          </a>
+        </div>
+
+      </div>
+
+      <!-- ===== Previous Research Mentors ===== -->
+
+      <h3 class="subsection-title">Previous Research Mentors</h3>
+      <div class="collab-grid">
+
+        <div class="collab-card">
+          <img src="Image/abhinandan.jpeg" alt="M.Tech Supervisor">
+          <h3>Prof. Abhinandan De</h3>
+          <p class="collab-role">M.Tech Supervisor</p>
+          <p>
+            Professor<br>
+            Department of Electrical Engineering<br>
+            IIEST Shibpur
+          </p>
+          <a href="https://scholar.google.com/citations?user=R5re9igAAAAJ&hl=en" target="_blank" class="btn">
+            View Profile →
+          </a>
+        </div>
+
+        <div class="collab-card">
+          <img src="Image/jayanta.jpeg" alt="B.Tech Supervisor">
+          <h3>Dr. Jayanta K. Chandra</h3>
+          <p class="collab-role">B.Tech Supervisor</p>
+          <p>
+            Associate Professor<br>
+            Department of Electrical Engineering<br>
+            Government College of Engineering and Textile Technology, Berhampur, West Bengal, India
+          </p>
+          <a href="https://scholar.google.com/citations?user=ixWYWAEAAAAJ&hl=en" target="_blank" class="btn">
+            View Profile →
+          </a>
+        </div>
+
+      </div>
+
+      <!-- ===== Academic Collaborators ===== -->
+
+      <h3 class="subsection-title">Academic Collaborators</h3>
+      <div class="collab-grid">
+
+        <div class="collab-card">
+          <img src="Image/debdeep.jpeg" alt="Research Collaborator">
+          <h3>Dr. Debdeep Saha</h3>
+          <p class="collab-role">Research Collaborator and Co-author</p>
+          <p>
+            Senior Research and Development Engineer<br>
+            Hitachi Energy
+          </p>
+          <a href="https://scholar.google.com/citations?user=d0LNiYYAAAAJ&hl=en" target="_blank" class="btn">
+            View Profile →
+          </a>
+        </div>
+
+        <div class="collab-card">
+          <img src="Image/shivanshu.png" alt="Research Collaborator">
+          <h3>Mr. Shivanshu Kumar</h3>
+          <p class="collab-role">Research Collaborator and Co-author</p>
+          <p>
+            PhD Scholar<br>
+            Department of Electrical Engineering<br>
+            IIEST Shibpur
+          </p>
+          <a href="https://scholar.google.com/citations?user=qJyVfYwAAAAJ&hl=en" target="_blank" class="btn">
+            View Profile →
+          </a>
+        </div>
+
+      </div>
+      <!-- ================= Future ================= -->
+
+      <h2 class="section-title">Future Research Directions</h2>
+      <div class="section-rule"></div>
+      <div class="card">
+        <ul class="interest-list">
+          <li>Protection of inverter-dominated power systems</li>
+          <li>Adaptive protection using Artificial Intelligence</li>
+          <li>Protection of hybrid AC/DC microgrids</li>
+          <li>Grid-forming converter control strategies</li>
+          <li>Wide-area protection and monitoring</li>
+          <li>Resilient active distribution networks</li>
+          <li>Digital substations and IEC 61850 applications</li>
+          <li>Protection of renewable-rich power systems</li>
+        </ul>
+      </div>
+
+      <!-- ================= Gallery ================= -->
+
+      <h2 class="section-title">Research Gallery</h2>
+      <div class="section-rule"></div>
+      <div class="gallery-grid">
+        <img src="Image/gallery1.jpg" alt="Research">
+        <img src="Image/gallery2.jpg" alt="Research">
+        <img src="Image/gallery3.jpg" alt="Research">
+        <img src="Image/gallery4.jpg" alt="Research">
+        <img src="Image/gallery5.jpg" alt="Research">
+        <img src="Image/gallery6.jpg" alt="Research">
+      </div>
+
+    </div>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; Shyamal Das &middot; Dept. of Electrical Engineering, IIT Bhubaneswar</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
+
 </html>

@@ -8,17 +8,12 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;1,600&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header class="cover">
-  <div>
-    <div class="cover-mark">SD</div>
-    <h1>Shyamal Das</h1>
-    <p>PhD Research Scholar &middot; Electrical Engineering</p>
-  </div>
-</header>
+
 
 <nav class="nav-bar">
   <div class="nav-inner">
@@ -26,6 +21,7 @@
     <a href="about.html">About Me</a>
     <a href="research.html">Research</a>
     <a href="publications.html">Publications</a>
+    <a href="blog.html">Research Blog</a>
     <a href="contact.html">Contact Me</a>
   </div>
   <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
@@ -36,43 +32,106 @@
 <main>
   <div class="wrap">
     <div class="intro-grid">
-      <div class="intro-photo-wrap">
-        <img class="intro-photo" src="Image/profile.jpg" alt="Shyamal Das">
-        <div class="intro-photo-fallback">Add profile.jpg to the Image folder</div>
-      </div>
-      <div class="intro-text">
-        <p class="intro-eyebrow">Power &amp; Energy Systems</p>
-        <h2 class="section-title">Shyamal Das</h2>
-        <div class="section-rule"></div>
-        <p>
-          I'm a PhD Research Scholar in Electrical Engineering at IIT Bhubaneswar,
-          working on protection and control of inverter-dominated microgrids. My research
-          spans islanding detection, grid-forming and grid-following inverter dynamics, and
-          coordinated protection schemes for DER-rich systems &mdash; validated on real hardware
-          through PHIL testing, RTDS, and Typhoon HIL, not only in simulation.
-        </p>
-        <a href="about.html" class="btn">Read More</a>
-      </div>
-    </div>
-  </div>
 
-  <div class="strip">
-    <div class="strip-grid">
-      <div class="strip-item">
-        <h3>Latest Publication</h3>
-        <p>"Hybrid Islanding Detection Based on Voltage THD and Non-Power Frequency Impedance in Inverter-Interfaced Microgrid," IEEE Transactions on Smart Grid, 2026.</p>
+      <div class="intro-photo-wrap">
+        <img class="intro-photo" src="Image/profile.jpeg" alt="Shyamal Das">
+        <div class="intro-photo-fallback">
+          Add profile.jpeg to the Image folder
+        </div>
       </div>
-      <div class="strip-item">
-        <h3>Research Focus</h3>
-        <p>Coordinated protection and control for inverter-dominated microgrids, islanding detection, and grid-forming inverter control.</p>
+
+      <div class="intro-text">
+
+        <h2 class="section-title">Shyamal Das</h2>
+
+        <p class="intro-designation">
+          PhD Research Scholar<br>
+          Department of Electrical Engineering<br>
+          IIT Bhubaneswar
+        </p>
+
+        <div class="section-rule"></div>
+
+        <p class="intro-interests">
+          Microgrid Protection &bull;
+          Grid-Forming Inverters &bull;
+          Renewable Integration &bull;
+          Power System Protection
+        </p>
+
+        <p>
+          I am a PhD Research Scholar in Electrical Engineering at IIT Bhubaneswar.
+          My research focuses on protection and control of inverter-interfaced
+          microgrids, with particular emphasis on grid-forming inverters,
+          islanding detection, and inverter dynamics. My work combines analytical
+          modelling with hardware validation using PHIL, RTDS, and Typhoon HIL,
+          ensuring that the proposed methods are verified beyond simulation.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="about.html" class="btn">
+            About Me →
+          </a>
+
+          <a href="research.html" class="btn btn-filled">
+            Research →
+          </a>
+        </div>
+
+        <div class="hero-icons">
+
+          <a href="https://scholar.google.com/citations?user=YOUR_ID"
+             target="_blank" aria-label="Google Scholar">
+             <i class="fas fa-graduation-cap"></i>
+          </a>
+
+          <a href="https://orcid.org/YOUR_ORCID"
+             target="_blank" aria-label="ORCID">
+             <i class="fab fa-orcid"></i>
+          </a>
+
+          <a href="https://www.researchgate.net/profile/YOUR_PROFILE"
+             target="_blank" aria-label="ResearchGate">
+             <i class="fab fa-researchgate"></i>
+          </a>
+
+          <a href="https://www.linkedin.com/in/YOUR_PROFILE"
+             target="_blank" aria-label="LinkedIn">
+             <i class="fab fa-linkedin"></i>
+          </a>
+
+          <a href="https://github.com/YOUR_USERNAME"
+             target="_blank" aria-label="GitHub">
+             <i class="fab fa-github"></i>
+          </a>
+
+        </div>
+
       </div>
-      <div class="strip-item">
-        <h3>Institution</h3>
-        <p>Department of Electrical Engineering, Indian Institute of Technology Bhubaneswar.</p>
-      </div>
+
     </div>
   </div>
 </main>
+
+<section class="strip">
+  <div class="strip-grid">
+
+    <div class="strip-item">
+      <h3>Journal Publications</h3>
+      <p><strong>1</strong> IEEE Transactions Journal</p>
+    </div>
+
+    <div class="strip-item">
+    <h3>Conference Publications</h3>
+    <p><strong>5</strong> IEEE & Springer Conferences</p>
+    </div>
+    
+    <div class="strip-item">
+      <h3>Research Experience</h3>
+      <p><strong>4+</strong> Years in Power System Research</p>
+    </div>
+  </div>
+</section>
 
 <footer class="site-footer">
   <p>&copy; Shyamal Das &middot; Dept. of Electrical Engineering, IIT Bhubaneswar</p>
